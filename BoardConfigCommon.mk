@@ -188,7 +188,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy_vndr/SEPolicy.mk
 SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
