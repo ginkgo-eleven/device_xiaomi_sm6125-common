@@ -21,7 +21,7 @@ ifeq ($(TARGET_USES_INTERACTION_BOOST),true)
 endif
 
 LOCAL_MODULE := android.hardware.power-service.ginkgo
-LOCAL_INIT_RC := android.hardware.power-service.rc
+LOCAL_INIT_RC := android.hardware.power-service.ginkgo.rc
 LOCAL_MODULE_TAGS := optional
 LOCAL_CFLAGS += -Wno-unused-parameter -Wno-unused-variable
 LOCAL_VENDOR_MODULE := true
