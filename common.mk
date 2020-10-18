@@ -220,6 +220,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@1.1.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor
 
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    vendor.display.disable_excl_rect_partial_fb=1
+
 # Doze
 PRODUCT_PACKAGES += \
     XiaomiDoze
