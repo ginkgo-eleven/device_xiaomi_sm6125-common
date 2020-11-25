@@ -48,7 +48,7 @@ vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 # ANT+ - from LA.UM.9.1.r1-06700-SMxxx0.0
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
-# Audio
+# Audio - from tucana-user 11 RKQ1.200826.002 20.10.15 release-keys 
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioparsers.so
@@ -60,27 +60,35 @@ vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 
-# Audio FX modules
+# Audio FX modules - from tucana-user 11 RKQ1.200826.002 20.10.15 release-keys 
 vendor/lib/soundfx/libasphere.so
 
-# Audio (A2dp)
+# Audio (A2dp) - from tucana-user 11 RKQ1.200826.002 20.10.15 release-keys 
 vendor/lib/btaudio_offload_if.so
 vendor/lib/hw/audio.bluetooth_qti.default.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 
-# Bluetooth
+# Bluetooth (Configstore) - from LA.UM.9.1.r1-06700-SMxxx0.0
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+
+# Bluetooth - from LA.UM.9.1.r1-06700-SMxxx0.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/libbtnv.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
-# AptX
+# Bluetooth (SAR) - from LA.UM.9.1.r1-06700-SMxxx0.0
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
+
+# AptX - from tucana-user 11 RKQ1.200826.002 20.10.15 release-keys 
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 
@@ -91,7 +99,7 @@ vendor/lib/libcdsprpc.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 
-# Charger
+# Charger - from LA.UM.9.1.r1-06700-SMxxx0.0
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
 vendor/etc/charger_fstab.qti
@@ -240,10 +248,10 @@ vendor/lib64/liboemcrypto.so|14289b52bddd8d5ad100452c475cf4cbedca67cb
 vendor/lib/liboemcrypto.so|822a8413aa5229e66b090113295f79d6839c004f
 vendor/lib/libwvhidl.so|aaee55dbe013214b53313a2153d4990478a4ee17
 
-# FM
-lib64/fm_helium.so
-lib64/libfm-hci.so
-product/lib64/vendor.qti.hardware.fm@1.0.so
+# FM - from LA.UM.9.1.r1-06700-SMxxx0.0
+system_ext/lib64/fm_helium.so
+system_ext/lib64/libfm-hci.so
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
@@ -464,7 +472,7 @@ vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
 
-# Peripheral manager
+# Peripheral manager - from LA.UM.9.1.r1-06700-SMxxx0.0
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
@@ -718,7 +726,7 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc_default_listener.so
 
-# Soter
+# Soter - from tucana-user 11 RKQ1.200826.002 20.10.15 release-keys 
 -vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
@@ -731,13 +739,13 @@ vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 
-# Time services
+# Time services - from LA.UM.9.1.r1-06700-SMxxx0.0
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
-# Trusted User Interface
+# Trusted User Interface - from LA.UM.9.1.r1-06700-SMxxx0.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
